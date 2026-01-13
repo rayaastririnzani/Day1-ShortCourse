@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avalanche Wallet Connect</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+<body>
+    <div class="container">
+        <div>
+            <div class="header">
+                <div class="logo-wrapper">
+                    <div class="logo-ring"></div>
+                    <div class="logo">❄️</div>
+                </div>
+                <h1>Avalanche Wallet</h1>
+                <p class="subtitle">Raya Astri Rinzani - 231011401930</p>
+            </div>
+    
+            <button class="connect-btn" id="connectBtn">
+                <span id="btnText">Connect Wallet</span>
+            </button>
+        </div>
+
+        <div class="wallet-info">
+            <div class="info-row">
+                <span class="info-label">Status</span>
+                <span class="info-value">
+                    <span class="status-badge status-disconnected" id="status">Disconnected</span>
+                </span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Address</span>
+                <span class="info-value address-value" id="address">—</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Network</span>
+                <span class="info-value" id="network">—</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Balance</span>
+                <span class="info-value balance-value" id="balance">—</span>
+            </div>
+        </div>
+
+        <div class="error-message" id="errorMessage"></div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
